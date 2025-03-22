@@ -47,3 +47,4 @@ D:\Microservices\SampleMicrosservices\Play.Catalog\src\Play.Catalog.Service\bin\
 D:\Microservices\SampleMicrosservices\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Microservices\SampleMicrosservices\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
 D:\Microservices\SampleMicrosservices\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net9.0\Play.Common.dll
+D:\Microservices\SampleMicrosservices\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net9.0\Play.Catalog.Service.sourcelink.json
