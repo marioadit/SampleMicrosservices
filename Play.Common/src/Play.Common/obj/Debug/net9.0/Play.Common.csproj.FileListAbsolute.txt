@@ -10,3 +10,4 @@ D:\Microservices\SampleMicrosservices\Play.Common\src\Play.Common\obj\Debug\net9
 D:\Microservices\SampleMicrosservices\Play.Common\src\Play.Common\obj\Debug\net9.0\refint\Play.Common.dll
 D:\Microservices\SampleMicrosservices\Play.Common\src\Play.Common\obj\Debug\net9.0\Play.Common.pdb
 D:\Microservices\SampleMicrosservices\Play.Common\src\Play.Common\obj\Debug\net9.0\ref\Play.Common.dll
+D:\Microservices\SampleMicrosservices\Play.Common\src\Play.Common\obj\Debug\net9.0\Play.Common.sourcelink.json

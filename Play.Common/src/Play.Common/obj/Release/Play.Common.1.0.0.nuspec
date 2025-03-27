@@ -5,7 +5,7 @@
     <version>1.0.0</version>
     <authors>Play.Common</authors>
     <description>Package Description</description>
-    <repository type="git" />
+    <repository type="git" commit="4171c40dd452afd1ec94e24ee1399d6ef3fa9df3" />
     <dependencies>
       <group targetFramework="net9.0">
         <dependency id="Microsoft.Extensions.Configuration" version="9.0.3" exclude="Build,Analyzers" />

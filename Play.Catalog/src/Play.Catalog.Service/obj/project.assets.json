@@ -1029,7 +1029,7 @@
       ]
     },
     "Play.Common/1.0.0": {
-      "sha512": "XYyl0LZ+zfd/u+3HrWTqOrC4hDoGA7D+7PNWQZT1dvC9kyIP41FZxI56MPc0pI64W9cIbqdBekEsIHY4d94oMA==",
+      "sha512": "tYZpXbIgb3Ly7ITF1NeN3ZIHbIJUdukogAGPpY5Wi6ElpcpHLbe4FLweD03gD4VCzFzrfKg+tGhyLiwbqp6/9A==",
       "type": "package",
       "path": "play.common/1.0.0",
       "files": [
@@ -1404,6 +1404,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "D:\\Microservices\\SampleMicrosservices\\packages": {},
+        "D:\\Microservices\\utsmicroservice\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
