@@ -40,12 +40,10 @@
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
-          "build/Microsoft.Extensions.ApiDescription.Server.props": {},
-          "build/Microsoft.Extensions.ApiDescription.Server.targets": {}
+          "build/_._": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
-          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
+          "buildMultiTargeting/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration/9.0.3": {
@@ -260,7 +258,8 @@
           "Microsoft.Extensions.Configuration": "9.0.3",
           "Microsoft.Extensions.Configuration.Binder": "9.0.3",
           "Microsoft.Extensions.DependencyInjection": "9.0.3",
-          "MongoDB.Driver": "3.2.1"
+          "MongoDB.Driver": "3.2.1",
+          "Swashbuckle.AspNetCore": "7.2.0"
         },
         "compile": {
           "lib/net9.0/Play.Common.dll": {}
@@ -300,10 +299,10 @@
           "Swashbuckle.AspNetCore.SwaggerUI": "7.2.0"
         },
         "build": {
-          "build/Swashbuckle.AspNetCore.props": {}
+          "build/_._": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/Swashbuckle.AspNetCore.props": {}
+          "buildMultiTargeting/_._": {}
         }
       },
       "Swashbuckle.AspNetCore.Swagger/7.2.0": {
@@ -1029,7 +1028,7 @@
       ]
     },
     "Play.Common/1.0.0": {
-      "sha512": "tYZpXbIgb3Ly7ITF1NeN3ZIHbIJUdukogAGPpY5Wi6ElpcpHLbe4FLweD03gD4VCzFzrfKg+tGhyLiwbqp6/9A==",
+      "sha512": "uKE9579PfYJO85TCe4mVao9ka2xhzybR/EfLEardOL/jcANILo0UGQXtU+RisztVC94/Kx9lIRevteb0AtZEBA==",
       "type": "package",
       "path": "play.common/1.0.0",
       "files": [
@@ -1372,8 +1371,7 @@
     "net9.0": [
       "Microsoft.AspNetCore.OpenApi >= 9.0.0",
       "MongoDB.Driver >= 3.2.1",
-      "Play.Common >= 1.0.0",
-      "Swashbuckle.AspNetCore >= 7.2.0"
+      "Play.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1440,10 +1438,6 @@
           "Play.Common": {
             "target": "Package",
             "version": "[1.0.0, )"
-          },
-          "Swashbuckle.AspNetCore": {
-            "target": "Package",
-            "version": "[7.2.0, )"
           }
         },
         "imports": [
