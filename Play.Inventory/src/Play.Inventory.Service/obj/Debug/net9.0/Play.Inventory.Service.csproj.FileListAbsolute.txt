@@ -45,3 +45,6 @@ D:\Microservices\SampleMicrosservices\Play.Inventory\src\Play.Inventory.Service\
 D:\Microservices\SampleMicrosservices\Play.Inventory\src\Play.Inventory.Service\obj\Debug\net9.0\Play.Inventory.Service.pdb
 D:\Microservices\SampleMicrosservices\Play.Inventory\src\Play.Inventory.Service\obj\Debug\net9.0\Play.Inventory.Service.genruntimeconfig.cache
 D:\Microservices\SampleMicrosservices\Play.Inventory\src\Play.Inventory.Service\obj\Debug\net9.0\ref\Play.Inventory.Service.dll
+D:\Microservices\SampleMicrosservices\Play.Inventory\src\Play.Inventory.Service\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Microservices\SampleMicrosservices\Play.Inventory\src\Play.Inventory.Service\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Microservices\SampleMicrosservices\Play.Inventory\src\Play.Inventory.Service\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
