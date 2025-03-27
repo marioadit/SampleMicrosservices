@@ -44,7 +44,7 @@ namespace Play.Inventory.Service.Controllers
                 var catalogItem = catalogItems.Single(catalogItem => catalogItem.Id == item.CatalogItemId);
                 return item.AsDto(catalogItem.Name, catalogItem.Description);
             });
-            return Ok(items);
+            return Ok(inventoryItemDtos);
         }
 
         // [HttpGet("{id}", Name = "GetByIdAsync")]
