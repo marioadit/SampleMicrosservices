@@ -34,14 +34,17 @@ namespace Play.Inventory.Service.Controllers
         public async Task<ActionResult<IEnumerable<InventoryItemDto>>> GetAsync(Guid userId)
         {
             if (userId == Guid.Empty) { return BadRequest("UserId is required."); }
+
             var catalogItems = await catalogClient.GetCatalogItemsAsync();
+
             var items = (await itemsRepository.GetAllAsync()).Where(item => item.UserId == userId);
+
             var inventoryItemDtos = items.Select(item =>
             {
-                var catalogItem = catalogItems.FirstOrDefault(catalogItem => catalogItem.Id == item.CatalogItemId);
+                var catalogItem = catalogItems.Single(catalogItem => catalogItem.Id == item.CatalogItemId);
                 return item.AsDto(catalogItem.Name, catalogItem.Description);
             });
-            return Ok(inventoryItemDtos);
+            return Ok(items);
         }
 
         // [HttpGet("{id}", Name = "GetByIdAsync")]
